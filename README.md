@@ -36,6 +36,8 @@ $ npm install
 
 ## Running the app
 
+connect to DB filename: m
+
 ```bash
 # development
 $ npm run start

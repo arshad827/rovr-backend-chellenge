@@ -11,6 +11,7 @@ export class AppController {
 
   /**
   *  inserting new record in DB
+  * I can use Firebase to add/(collections/documents) or retreive it but I used Mysql to quick start
   */
   @Post('add-keyword')
   @UsePipes(new ValidationPipe({ transform: true }))

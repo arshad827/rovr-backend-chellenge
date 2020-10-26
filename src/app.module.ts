@@ -12,7 +12,7 @@ import { RovrSearch } from './models/search.model';
       host: 'localhost',
       port: 3306,
       username: 'root',
-      password: 'Farheen@123',
+      password: 'Farheen@123', //change password as per your local Mysql's
       database: 'rovr',
       autoLoadEntities: true,
       entities: [],
